@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Invites</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <nav>
+        <a href="index.html">Register</a> | 
+        <a href="users.html">Find Mates</a> | 
+        <a href="invites.html">Invites</a>
+    </nav>
+    <div class="container">
+        <h2>Create Invite</h2>
+        <input type="text" id="inviteName" placeholder="Enter Invitee Name">
+        <input type="text" id="venue" placeholder="Venue">
+        <input type="date" id="date">
+        <input type="time" id="time">
+        <button onclick="createInvite()">Send Invite</button>
+
+        <h2>Pending Invites</h2>
+        <ul id="inviteList"></ul>
+    </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

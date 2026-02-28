@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <nav>
+        <a href="index.html">Register</a> | 
+        <a href="users.html">Find Mates</a> | 
+        <a href="invites.html">Invites</a>
+    </nav>
+    <div class="container">
+        <h2>Users in Your District</h2>
+        <input list="districts" id="district" placeholder="Enter District">
+        <datalist id="districts">
+            <option value="Thiruvananthapuram">
+            <option value="Kollam">
+            <option value="Pathanamthitta">
+            <option value="Alappuzha">
+            <option value="Kottayam">
+            <option value="Idukki">
+            <option value="Ernakulam">
+            <option value="Thrissur">
+            <option value="Palakkad">
+            <option value="Malappuram">
+            <option value="Kozhikode">
+            <option value="Wayanad">
+            <option value="Kannur">
+            <option value="Kasaragod">
+        </datalist>
+        <button onclick="showUsers()">Show Users</button>
+
+        <ul id="userList"></ul>
+    </div>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>
